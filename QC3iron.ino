@@ -1,7 +1,7 @@
 #include "Button.h"
 #include <QC3Control.h>
 
-QC3Control quickCharge(2, 0);
+QC3Control quickCharge(0, 2);
 short voltages[] = {5000, 9000, 12000, 16000, 20000, 3600};
 #define MAXVOLTAGE (20000)
 #define VOLTAGESCOUNT (6)
